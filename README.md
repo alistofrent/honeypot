@@ -3,6 +3,7 @@ This project includes two variations of a honeypot. The first uses the Python pa
 Make sure to install any packages your system doesn't have from the import section(s).
 
 **SSH Fake File System**
+
 You will need to install the paramiko package for this to work.
 
 Run the script using the command:
@@ -35,6 +36,7 @@ exit/logout
 
 
 **SSH Docker Proxy**
+
 You will need to install the psutil and shutil packages for this to work.
 
 The docker image will be created with the following credentials:
