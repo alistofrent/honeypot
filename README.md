@@ -16,23 +16,40 @@ ssh user@[IP_ADDRESS] -p 22
 
 The default credentials are username: "user" and password: "Password"
 
-The available commands are:
-ls
-cd
-pwd
-mkdir
-touch
-rm
-grep -r
-cat
-clear
-who
-uname -a, -s, -n, -r, -v, -m, -p, -i, -o
-find
-ps
-netstat -a, -t, -u, -x, -p, -n, -l, -r
-exit/logout
-?
+The available commands are:  
+
+ls  
+
+cd  
+
+pwd  
+
+mkdir  
+
+touch  
+
+rm  
+
+grep -r  
+
+cat  
+
+clear  
+
+who  
+
+uname -a, -s, -n, -r, -v, -m, -p, -i, -o  
+
+find  
+
+ps  
+
+netstat -a, -t, -u, -x, -p, -n, -l, -r  
+
+exit/logout  
+
+?  
+
 
 
 **SSH Docker Proxy**
@@ -48,4 +65,4 @@ sudo python3 ssh_docker_spawn.py
 
 Connect using the command:
 ssh -o StrictHostKeyChecking=accept-new -p 2222 user@[IP_ADDRESS]
-Note that StrictHostKeyChecking=accept-new is needed for a successful connection, as otherwise there can security check issues.
+Note that StrictHostKeyChecking=accept-new is needed for a successful connection, as otherwise there can security check issues if previosuly connected.
